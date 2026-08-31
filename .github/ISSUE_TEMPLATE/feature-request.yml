@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest an improvement for Code Pocket.
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What is difficult today, and who encounters it?
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+      description: Describe the result you want, not only a proposed implementation.
+    validations:
+      required: true
+  - type: dropdown
+    id: component
+    attributes:
+      label: Area
+      options:
+        - iPhone app
+        - Mac Bridge
+        - Pairing and connection
+        - Conversations and coding-agent workflow
+        - Documentation and downloads
+    validations:
+      required: true

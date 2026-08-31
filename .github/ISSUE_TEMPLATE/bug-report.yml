@@ -1,0 +1,57 @@
+name: Bug report
+description: Report a reproducible problem in Code Pocket or Code Pocket Bridge.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve Code Pocket. Do not include credentials, pairing secrets, full logs, project source, absolute paths, conversation content, or other sensitive data.
+  - type: dropdown
+    id: component
+    attributes:
+      label: Affected component
+      options:
+        - Code Pocket for iPhone
+        - Code Pocket Bridge for Mac
+        - Pairing or connection
+        - GitHub downloads or documentation
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Versions
+      description: Include Code Pocket, Bridge, iOS/macOS, and Codex CLI versions when relevant.
+      placeholder: "Code Pocket 1.0; Bridge 1.0; iOS 17.x; macOS 14.x"
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the actual result and the result you expected.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Minimal reproduction steps
+      placeholder: |
+        1. Open…
+        2. Tap…
+        3. Observe…
+    validations:
+      required: true
+  - type: textarea
+    id: redacted-material
+    attributes:
+      label: Redacted screenshots or diagnostics
+      description: Optional. Review every attachment before uploading it.
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy check
+      options:
+        - label: I removed credentials, secrets, private paths, source code, conversation content, and personal information.
+          required: true
