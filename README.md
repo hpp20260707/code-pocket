@@ -4,7 +4,7 @@ Official downloads, documentation, privacy policy, and support resources for **C
 
 - Product site: https://hpp20260707.github.io/code-pocket/
 - Downloads: https://github.com/hpp20260707/code-pocket/releases
-- Latest Mac release: Code Pocket Bridge 1.0.1 (macOS 14+)
+- Latest Mac release: Code Pocket Bridge 1.0.2 (50), macOS 14+, requires Pocket 1.0.2 / Wire 65. Pocket 1.0.2 is not yet publicly available on the App Store; retain Bridge 1.0.1 with Pocket 1.0.1.
 - Support: https://hpp20260707.github.io/code-pocket/support.html
 - Privacy policy: https://hpp20260707.github.io/code-pocket/privacy.html
 
